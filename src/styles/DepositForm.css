@@ -1,0 +1,83 @@
+.deposit {
+  width: 100%;
+  height: 97vh;
+  background-color: rgba(12, 12, 12, 0.2);
+  background: linear-gradient(45deg, #faf7f7, #e65015ef );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: 50px; */
+  border-radius: 10px;
+}
+
+.deposit-form {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  height: 68vh;
+  background: linear-gradient(45deg, #0ef7f7, #e65015ef );
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 85px; */
+  border-radius: 6px;
+}
+
+.deposit-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-label input {
+  width: 82px;
+  margin-bottom: 40px;
+  margin-left: 14px;
+  font-size: 17px;
+}
+
+.amount-label {
+  font-size: 24px;
+}
+
+.deposit-btn {
+  display: flex;
+  gap: 72px;
+  margin-left: 8px;
+}
+
+.deposit-btn button {
+  font-size: 19px;
+  border: none;
+  transform: transition 0.3s ease;
+}
+
+.deposit-btn button:hover{
+  color: white;
+  background-color: #0b0325;
+  border: none;
+}
+
+.deposit-message {
+  color: green;
+  /* font-weight: 500; */
+}
+
+@media (max-width: 768px) {
+  .deposit {
+    width: 100%;
+    height: 96vh;
+    margin-top: 0;
+  }
+
+  .deposit-form {
+    width: 90%;
+    height:92vh;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+  }
+}

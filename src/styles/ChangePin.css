@@ -1,0 +1,91 @@
+.change {
+  width: 100%;
+  height: 97vh;
+  background-color: rgba(12, 12, 12, 0.2);
+  background: linear-gradient(45deg, #faf7f7, #e65015ef );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: 50px; */
+  border-radius: 10px;
+}
+
+.change-form {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  height: 68vh;
+  background: linear-gradient(45deg, #0ef7f7, #e65015ef );
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 85px; */
+  border-radius: 6px;
+}
+
+.change-form .change-btn {
+  display: flex;
+  gap: 120px;
+  margin-top: 18px;
+}
+
+.change-btn {
+  border-radius: 2px;
+  border: none;
+  padding: 3px 10px;
+}
+
+.change-btn button {
+  font-size: 19px;
+  border-radius: 4px;
+  border: none;
+}
+
+.change-btn button:hover {
+  color: white;
+  background-color: #0b0325;
+}
+
+.change-form form {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.change-form .label-6 input {
+  margin-left: 19px;
+  width: 140px;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 8px;
+  font-size: 19px;
+}
+
+.change-form .label-1 label {
+  font-size: 20px;
+}
+
+.change-form .label-6 label {
+  font-size: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .change {
+    width: 100%;
+    height: 96vh;
+    margin-top: 0;
+  }
+
+  .change-form {
+    width: 90%;
+    height:92vh;
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+}

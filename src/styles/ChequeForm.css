@@ -1,0 +1,82 @@
+.cheque {
+  width: 100%;
+  height: 97vh;
+  background-color: rgba(12, 12, 12, 0.2);
+  background: linear-gradient(45deg, #faf7f7, #e65015ef );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: 50px; */
+  border-radius: 10px;
+}
+
+.cheque-form {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  height: 68vh;
+  background: linear-gradient(45deg, #0ef7f7, #e65015ef );
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 85px; */
+  border-radius: 6px;
+
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.cheque-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cheque-label input {
+  width: 80px;
+  margin-bottom: 40px;
+  margin-left: 14px;
+  font-size: 18px;
+}
+
+.cheque-label {
+  font-size: 23px;
+}
+
+.cheque-btn {
+  display: flex;
+  gap: 95px;
+  margin-left: 8px;
+}
+
+.cheque-btn button {
+  font-size: 19px;
+  height: 26px;
+  border: none;
+  border-radius: 4px;
+}
+
+.cheque-btn button:hover{
+  color: white;
+  background-color: #0b0325;
+}
+
+@media (max-width: 768px) {
+  .cheque {
+    width: 100%;
+    height: 96vh;
+    margin-top: 0;
+  }
+
+  .cheque-form {
+    width: 90%;
+    height:92vh;
+    margin-top: 16px;
+    margin-bottom: 15px;
+  }
+}
